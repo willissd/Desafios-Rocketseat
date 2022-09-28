@@ -1,0 +1,22 @@
+label{
+    font-weight: bold;
+    display: block;
+}
+
+
+fieldset{
+    width: 25%;
+}
+
+input{
+    margin-bottom: 25px;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+
+form{
+    position: relative;
+    left: 35%;
+}
