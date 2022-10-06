@@ -1,0 +1,70 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: #FAF7FD;
+  }
+
+  body,html{
+    overflow: hidden;
+    height: 100%;
+  }
+
+  header,tbody{
+    display: block;
+    position: relative;
+    left: 40%;
+  }
+
+  div{
+    display: block;
+    position: relative;
+    left: 35%;
+    border: solid #BB99DD 1px;
+    color: #BB99DD;
+    width: fit-content;
+    padding: 20px 150px;
+    
+  }
+
+  .icons{
+    margin: 25px 40px;
+  }
+
+  .id-usuario{
+    color: #BB99DD;
+  }
+
+  .git{
+    padding: 50px;
+  }
+
+  footer{
+    display: block;
+    position: relative;
+    left: 36%;
+    top: 5px;
+
+  }
+  span{
+    padding: 10px;
+  }
+
+  .foto-id{
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 500px;
+    border: solid 2px #BB99DD;
+    
+  }
+
+.link1{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.link1:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
