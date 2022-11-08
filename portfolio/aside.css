@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+
+aside{
+    margin: 10px;
+    border: solid red 1px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex: 1;
+    gap: .8rem;
+}
+
+aside div{
+    border: solid red 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+aside .Photograph{
+    display: flex;
+    flex: 2;
+}
+
+aside .description{
+    display: flex;
+    flex: 2.5;
+}
+
+aside .skills{
+    display: flex;
+    flex: 1;
+}
+
+

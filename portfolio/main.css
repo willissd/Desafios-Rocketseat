@@ -1,0 +1,57 @@
+main{
+    margin: 10px;
+    border: solid green 1px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex: 3;
+    gap: .8rem;
+}
+
+main div, .footer{
+    border: solid gray 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+main .head{
+    height: 40px;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .counteiner{
+    height: 150px;
+    padding: 10px;
+    margin: 0px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .8rem;
+}
+
+.counteiner div{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+main .recent-post{
+    height: 40px;
+    padding: 10px;
+    margin: 0px 15px 15px;
+    display: flex;
+}
+
+main .footer{
+    height: 150px;
+    padding: 10px;
+    margin: 0px 15px 15px;
+    display: flex;
+}
+
