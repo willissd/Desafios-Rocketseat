@@ -7,8 +7,6 @@ body{
 
 
 aside{
-    margin: 10px;
-    border: solid red 1px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -17,7 +15,7 @@ aside{
 }
 
 aside div{
-    border: solid red 1px;
+    margin: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -25,17 +23,109 @@ aside div{
 
 aside .Photograph{
     display: flex;
-    flex: 2;
+    flex: 2.8;
+    justify-content: center;
+    align-items: center;
 }
+
+aside .Photograph .box{
+    position: relative;
+    bottom: 20px;
+    border: solid lime 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("fotos/IMG-20220630-WA0039.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+    background-position-x: 0px;
+}
+
+.Photograph .box .nome{
+    position: relative;
+    top: 140px;
+    left: 20px;
+}
+.Photograph .box .nome h3{
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+
 
 aside .description{
     display: flex;
     flex: 2.5;
+    justify-content: start;
+    align-items: start;
+    padding-left: 20px;
+}
+
+
+
+figure > figcaption {
+    align-items: center;
+    font-size: 11px;
+    display: inline;
+}
+
+.description ul li:nth-child(1){
+    list-style-image: url("assets/map-pin.svg");
+}
+
+.description ul li:nth-child(2){
+    list-style-image: url("assets/briefcase.svg");
+}
+
+.description ul li:nth-child(3){
+    list-style-image: url("assets/github.svg");
+}
+
+.description ul li:nth-child(4){
+    list-style-image: url("assets/linkedin.svg");
+}
+
+.description ul li:nth-child(5){
+    list-style-image: url("assets/twitter.svg");
+}
+
+.description ul li:nth-child(6){
+    list-style-image: url("assets/globe.svg");
+}
+
+.description ul li:nth-child(7){
+    list-style-image: url("assets/mail.svg");
 }
 
 aside .skills{
     display: flex;
-    flex: 1;
+    justify-content: start;
+    flex: 1.5;
 }
 
+aside .tecnologias{
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: .5rem;
+}
 
+aside .tecnologias section{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CB92B1;
+    height: 25px;
+    width: 80px;
+}
+
+aside .skills h3{
+    position: relative;
+    left: 15px;
+}

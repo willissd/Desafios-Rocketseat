@@ -1,6 +1,5 @@
 main{
     margin: 10px;
-    border: solid green 1px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -9,7 +8,6 @@ main{
 }
 
 main div, .footer{
-    border: solid gray 1px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -18,7 +16,7 @@ main div, .footer{
 main .head{
     height: 40px;
     padding: 10px;
-    margin: 15px;
+    margin: 0px 15px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,9 +24,9 @@ main .head{
 }
 
 main .counteiner{
-    height: 150px;
+    height: 137px;
     padding: 10px;
-    margin: 0px 15px 15px;
+    margin: 0px 5px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,8 +42,10 @@ main .counteiner{
 main .recent-post{
     height: 40px;
     padding: 10px;
-    margin: 0px 15px 15px;
+    margin: -5px 15px 15px;
     display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 main .footer{
@@ -53,5 +53,6 @@ main .footer{
     padding: 10px;
     margin: 0px 15px 15px;
     display: flex;
+    justify-content: start;
 }
 

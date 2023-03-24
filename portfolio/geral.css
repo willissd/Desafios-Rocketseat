@@ -7,3 +7,19 @@
         font-weight: 400, 500 e 700;
         margin: 0;
       }
+
+      body{
+        background: #22212C;
+        color: #837E9F;
+        font-family: Merriweather Sans;
+        font-weight: 400;
+      }
+
+      .Photograph, .description, .skills, .head, .left-content, .right-content, .recent-post, .footer{
+        background: #302F3D;
+        border-radius: 15px;
+      }
+
+      a{
+        color: inherit;
+      }
